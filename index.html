@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/layout.css">
 	<link rel="stylesheet" href="./css/variables.css">
+	<!-- 3rd party components -->
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
 	<!-- components -->
 
 	<!-- custom -->
@@ -17,43 +19,65 @@
 
 <body>
 	<header class="container">
-
-		<div class="nav-menu">
-			<a href="#">Home</a>
-			<a href="#">Tree finder</a>
-			<a href="#">About us</a>
-			<a href="#">Contact</a>
-		</div>
-		<div class="account-info">
-			<a href="#">My trees</a>
-			<a href="#">My account</a>
-			<a href="#">Shopping cart</a>
+		<div class="right-block">
+			<div class="nav-menu menu">
+				<a href="#">Home</a>
+				<a href="#">Tree finder</a>
+				<a href="#">About us</a>
+				<a href="#">Contact</a>
+				<a href="#">My trees</a>
+			</div>
+			<div class="account-info menu">
+				<a href="#" class="fa fa-shopping-cart"></a>
+				<a href="#" class="fa fa-user"></a>
+			</div>
 		</div>
 
 	</header>
 
 	<main class="container">
-		<div class="headers">
+		<div class="right-block">
 			<h2>Go Christmas.</h2>
-			<h1>The world of Christmas trees</h1>
 		</div>
-		<div class="about-content">
-			<p>Learn more about Christmas trees. They are various types of Christmas trees that you can decorate for
-				Christmas. Choose which is the best for your home.
-			</p>
+		<div class="right-block">
+			<div class="main-text">
+				<h1>The world of Christmas trees</h1>
+			</div>
+			<div class="main-text">
+				<p>Learn more about Christmas trees. They are various types of Christmas trees that you can decorate for Christmas.
+				</p>
+			</div>
 		</div>
-
 	</main>
 
 	<footer class="container">
-
-		<div class="large-product product">LARGE PRODUCT</div>
-		<h3>Top 5 trees</h3>
-		<div class="small-product-ruler">
-			<div class="small-product product">SMALL PRODUCT</div>
-			<div class="small-product product">SMALL PRODUCT</div>
-			<div class="small-product product">SMALL PRODUCT</div>
-			<div class="small-product product">SMALL PRODUCT</div>
+		<div class="right-block">
+			<h3>Top 5 trees</h3>
+		</div>
+		<div class="left-block">
+			<div class="large-product product">LARGE PRODUCT</div>
+		</div>
+		<div class="right-block">
+				<div class="small-product product">
+					<div class="product-label">
+						Tree name 1
+					</div>
+				</div>
+				<div class="small-product product">
+					<div class="product-label">
+						Tree name 2
+					</div>
+				</div>
+				<div class="small-product product">
+					<div class="product-label">
+						Tree name 3
+					</div>
+				</div>
+				<div class="small-product product">
+					<div class="product-label">
+						Tree name 4
+					</div>
+				</div>
 		</div>
 
 	</footer>
